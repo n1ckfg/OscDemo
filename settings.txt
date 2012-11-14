@@ -1,0 +1,23 @@
+Stage Width
+640
+
+Stage Height
+480
+
+Stage Depth
+500
+
+Framerate
+60
+
+Send OSC Active
+true
+
+OSC Send IP Number
+127.0.0.1
+
+OSC Send Port
+7110
+
+OSC Receive Port
+7111
