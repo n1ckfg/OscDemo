@@ -99,6 +99,7 @@ void oscSetup() {
 
 //2.  This function receives OSC.  It runs automatically; no need to call it in your code.
 void oscEvent(OscMessage myMessage) {
+  println(myMessage);
   for(int i=0;i<oscChannelNames.length;i++){
   if(myMessage.checkAddrPattern("/" + oscChannelNames[i])) {
     if(myMessage.checkTypetag("f")) {  // types are i = int, f = float, s = String, ifs = all
